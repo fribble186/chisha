@@ -1,0 +1,30 @@
+.page{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  button {
+    width: 50vw;
+  }
+  height: 100vh;
+}
+.dishesContainer {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.dish {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  z-index: 0;
+  margin: 10px 20px;
+  svg {
+    position: absolute;
+    z-index: 1;
+  }
+  span {
+    position: absolute;
+    z-index: 2;
+  }
+}

@@ -1,0 +1,17 @@
+@keyframes scaleAnimationKey {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.5);
+    }
+}
+
+.scaleAnimation {
+    animation-name           : scaleAnimationKey;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    z-index: 3;
+}
